@@ -1,0 +1,388 @@
+a{
+	text-decoration: none;
+	color: #5E2F13;
+}
+
+a:hover{
+	color: #3b2823;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+/*Navigation*/
+nav{
+	background-color: #DCC7B7;
+	height: 150px;
+	padding-right: 100px;
+}
+
+nav img{
+	margin-left: 100px;
+	padding-top: 10px;
+}
+
+.navigation{
+	float: right;
+	font-family: Dongle;
+	padding-top: 45px;
+	padding-right: 10px;
+	font-size: 28px;
+}
+
+
+
+
+
+/*Profile Information*/
+.profile{
+	margin: auto;
+	margin-top: 50px;
+	width: 50%;
+	padding: 10px;
+	font-family: Dongle;
+	color: #5E2F13;
+	line-height: 0.5;
+}
+
+.profile .profileInfo{
+	float: left;
+	width: 35%;
+	margin-left: 50px;
+}
+
+.profile .profileInfo .profileInfoName{
+	font-size: 60px;
+	margin-top: 50px;
+}
+
+.profile .profileInfo .profileInfoUsername{
+	font-size: 35px;
+}
+
+.profile .profileInfo .profileInfoButton{
+	border: none;
+	padding: 15px 32px;
+	font-family: Dongle;
+	font-size: 20px;
+	border-radius: 12px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	background-color: #DCC7B7;
+}
+
+.profile .profileInfo .profileInfoButton:hover{
+	color: white;
+	background-color: black;
+}
+
+.horizontalLine{
+	border-top: 3px solid #5E2F13;
+	margin: auto;
+	width: 80%;
+}
+
+
+
+
+
+/*options*/
+.options{
+	margin: auto;
+	width: 50%;
+	font-family: Dongle;
+	color: #5E2F13;
+	font-size: 40px;
+}
+
+.options .option{
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+
+
+
+/*Currently*/
+.boxes{
+	padding-top: 30px;
+	margin: 0 auto;
+	width: 60%;
+	font-family: Dongle;
+	color: #5E2F13;
+	line-height: 0.8;
+}
+
+.boxes .currently{
+	float: left;
+	margin-left: 20px;
+}
+
+
+
+
+/*Tracker*/
+.boxes #tracker{
+	border: 2px solid #5E2F13;
+	padding: 25px 80px;
+	border-radius: 5px;
+}
+
+.boxes #tracker .heading{
+	font-size: 35px;
+	text-decoration: underline;
+}
+
+.sub-work{
+	font-size: 25px;
+}
+
+.work-bar-container{
+	position: relative;
+    width: 100%;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    margin-bottom: 0.5em;
+}
+
+.work-bar {
+    display: block;
+    border-radius: 4px;
+    height: 25px;
+}
+
+.level1{
+	width: 40%;
+	background-color: #3b2823;
+}
+
+.level2{
+	width: 80%;
+	background-color: #3b2823;
+}
+
+.work-percent {
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      color: #999; //#333
+}
+
+.trackerButton{
+	border: 0;
+	padding: 10px 25px;
+	font-family: Dongle;
+	font-size: 20px;
+	border-radius: 12px;
+	margin-top: 8px;
+	background-color: #DCC7B7;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.trackerButton:hover{
+	color: white;
+	background-color: black;
+}
+
+
+
+
+/*Goals*/
+#goals{
+	background-color: #DCC7B7;
+	padding: 25px 70px;
+	border-radius: 5px;
+}
+
+.boxes #goals .heading{
+	font-size: 35px;
+	text-decoration: underline;
+}
+
+#goals .goals-list{
+	font-size: 25px;
+}
+
+.goalsButton{
+	border: 0;
+	padding: 10px 25px;
+	font-family: Dongle;
+	font-size: 20px;
+	border-radius: 12px;
+	margin-top: 8px;
+	background-color: whitesmoke;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.goalsButton:hover{
+	color: white;
+	background-color: black;
+}
+
+
+
+/*ContinueWatching*/
+.continue{
+	background-color: #DCC7B7;
+	margin-top: 100px;
+	margin-left: 200px;
+	margin-right: 200px;
+	padding: 20px 42px;
+	font-family: Dongle;
+}
+
+.continue .heading{
+	font-family: Dongle;
+	font-size: 40px;
+	text-decoration: underline;
+	color: #5E2F13;
+}
+
+.continue #continue:hover{
+	box-shadow: 20px 20px 30px rgba(0.12, 0, 0, 0.20);
+}
+
+.continue .continue_watching{
+	float: left;
+	padding-left: 30px;
+}
+
+.continue .continue_watching .video_title{
+	font-size: 30px;
+	color: #5E2F13;
+	letter-spacing: 2px;
+}
+
+.continue .continue_watching .video_caption{
+	font-size: 20px;
+}
+
+
+
+/*Grids*/
+.grid-container {
+  display: grid;
+  grid-column-gap: 15px;
+  grid-row-gap: 10px;
+  grid-template-columns: auto auto auto;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.grid-container .grid-item{
+	border-radius: 5px;
+}
+
+.grid-container .grid-item:hover{
+	box-shadow: 20px 20px 30px rgba(0.12, 0, 0, 0.20);
+}
+
+
+
+/*Knit/Crochet/About*/
+*{
+	font-family: 'Dongle', sans-serif;
+}
+
+h2{
+	margin-top: 50px;
+	font-size: 40px;
+	color: brown;
+	word-spacing: 2px;
+	letter-spacing: 2px;
+}
+
+#product1{
+ 	text-align: center;
+ }
+#product1 .pro-container{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	flex-wrap: wrap;
+}
+#product1 .pro{
+	width: 23%;
+	min-width: 250px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 12px;
+	padding-left: 12px;
+	border: 1px solid #DCC7B7;
+	border-radius: 25px;
+	cursor: pointer;
+	box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+	margin: 15px 0;
+	transition: 0.2s ease;
+}
+#product1 .pro:hover{
+	box-shadow: 20px 20px 30px rgba(0.12, 0, 0, 0.20);
+}
+#product1 .pro img{
+	width: 100%;
+	border-radius: 20px;
+}
+#product1 .pro h6{
+	text-align: left;
+	font-size: 20px;
+}
+
+#prod{
+ 	text-align: center;
+ }
+#prod .container{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	flex-wrap: wrap;
+}
+#prod .con{
+	width: 23%;
+	min-width: 250px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 12px;
+	padding-left: 12px;
+	border: 1px solid #DCC7B7;
+	border-radius: 25px;
+	cursor: pointer;
+	box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+	margin: 15px 0;
+	transition: 0.2s ease;
+}
+#prod .con img{
+	width: 100%;
+	border-radius: 20px;
+}
+
+#prod .aboutBuneko{
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: 25px;
+}
+
+
+
+
+
+
+/*Footer*/
+footer{
+	background-color: #DCC7B7;
+	height: 40px;
+	padding-bottom: 0;
+	margin-top: 100px;
+}
+
+.copyright{
+	color: gray;
+	margin-left: 100px;
+	padding-top: 8px;
+	font-family: Dongle;
+	font-size: 22px;
+
+}

@@ -1,0 +1,114 @@
+a{
+	text-decoration: none;
+	color: #5E2F13;
+}
+
+a:hover{
+	color: #3b2823;
+	text-decoration: underline;
+}
+
+*{
+	font-family: 'Dongle', sans-serif;
+}
+
+
+
+
+
+
+/*Navigation*/
+nav{
+	background-color: #DCC7B7;
+	height: 150px;
+	padding-right: 100px;
+}
+
+nav img{
+	margin-left: 100px;
+	padding-top: 10px;
+}
+
+.navigation{
+	float: right;
+	font-family: Dongle;
+	padding-top: 45px;
+	padding-right: 10px;
+	font-size: 28px;
+}
+
+/*Heading*/
+h2{
+	margin-top: 50px;
+	font-size: 40px;
+	color: brown;
+	word-spacing: 2px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+/*First*/
+
+.picAndThings{
+	color: #5E2F13;
+	margin-left: 20%;
+	margin-bottom: 100px;
+	margin-top: 30px;
+}
+
+.picAndThings .first{
+	float: left;
+	margin-left: 50px;
+}
+
+.picAndThings #things{
+	background-color: #DCC7B7 ;
+	border: 1px solid #5E2F13;
+	border-radius: 5px;
+	height: 370px;
+	width: 400px;
+}
+
+#things h3{
+	text-align: center;
+	padding-top: 5px;
+}
+
+#things .list{
+	font-size: 25px;
+}
+
+
+/*Process*/
+.process{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.process li{
+	text-decoration: underline;
+	font-size: 30px;
+}
+
+.process p{
+	font-size: 25px;
+
+}
+
+
+/*Footer*/
+footer{
+	background-color: #DCC7B7;
+	height: 40px;
+	padding-bottom: 0;
+	margin-top: 100px;
+}
+
+.copyright{
+	color: gray;
+	margin-left: 100px;
+	padding-top: 8px;
+	font-family: Dongle;
+	font-size: 22px;
+
+}
